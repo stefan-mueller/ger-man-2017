@@ -36,11 +36,12 @@ Plot the dispersion of the word "Gerechtigkeit" (justice, fairness) across the m
 ```r
 textplot_xray(kwic(corpus_ger_man_2017, "Gerechtigkeit"))
 ```
-Interestingly, the CDU/CSU hardly mentions "Gerechtigkeit" only once while the word is missing entirely in the FDP manifesto.
-The Greens devote a large section of their manifesto to justice, in the manifesto by the Left party (DIE LINNKE) the word is spread throughout the entire manifesto. The token index of all manifestos (x-axis) are rescaled from 0 to 1.
 
 ![The dispersion of the word "Gerechtigkeit" (justice, fairness) across the manifestos.
 ](https://github.com/stefan-mueller/ger-man-2017/blob/master/output/plot_xray.png)
+
+Interestingly, the CDU/CSU hardly mentions "Gerechtigkeit" only once while the word is missing entirely in the FDP manifesto.
+The Greens devote a large section of their manifesto to justice, in the manifestos by the Left party (DIE LINNKE) and the SPD the word is spread throughout the entire manifesto. The token index for all manifestos (x-axis) is rescaled and standardised from 0 to 1.
 
 Plot the 15 most frequent words per manifesto (after removing stopwords).
 
