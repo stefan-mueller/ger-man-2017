@@ -75,7 +75,7 @@ ggplot(data = freq_ordered, aes(x = order, y = frequency)) +
 
 ![The 15 most frequent words per manifesto (after removing stopwords).](https://github.com/stefan-mueller/ger-man-2017/blob/master/output/plot_topfeatures.png)
 
-Estimate party positions with a Wordscores and Correspondence Analysis.
+Estimate party positions with a [Wordfish](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.420.1849&rep=rep1&type=pdf) and [[Correspondence Analysis](http://www.jstatsoft.org/v20/i03/).
 
 ```r
 
