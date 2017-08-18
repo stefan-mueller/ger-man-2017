@@ -4,7 +4,7 @@ This repository contains the 2017 German federal election manifestos of the six 
 You can load the manifestos into R as a [quanteda](github.com/kbenoit/quanteda) corpus. You can clone the repository to use the text corpus. You can also download the file [corpus_ger_man_2017.Rdata](https://github.com/stefan-mueller/ger-man-2017/blob/master/manifestos-corpus/corpus_ger_man_2017.Rdata) to your machine and use the following command to import the texts as a quanteda corpus. The raw manifestos are available as PDF files in the folder [manifestos-pdf](manifestos-pdf).
 
 ```r
-## Load quanteda package
+## Load packages
 library(quanteda)
 library(ggplot2)
 library(dpylr)
@@ -38,7 +38,6 @@ textplot_xray(kwic(corpus_ger_man_2017, "Gerechtigkeit"))
 ```
 ![The dispersion of the word "Gerechtigkeit" (justice, fairness) across the manifestos.
 ](https://github.com/stefan-mueller/ger-man-2017/blob/master/output/plot_xray.png)
-
 
 Plot the 15 most frequent words per manifesto (after removing stopwords).
 
@@ -75,7 +74,6 @@ ggplot(data = freq_ordered, aes(x = order, y = frequency)) +
 ```
 
 ![The 15 most frequent words per manifesto (after removing stopwords).](https://github.com/stefan-mueller/ger-man-2017/blob/master/output/plot_topfeatures.png)
-
 
 Estimate party positions with Wordscores and Correspondence Analysis.
 
