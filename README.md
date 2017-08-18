@@ -50,7 +50,7 @@ Plot the 15 most frequent words per manifesto (after removing stopwords).
 stopwords_additional <- c("ab", "dass", "deshalb", "seit",
                           "statt", "n", "sowie")
 
-## Transform to documement feature matrix
+## Transform to document feature matrix
 dfm_man <- dfm(corpus_ger_man_2017, remove = c(stopwords("german"), stopwords_additional),
                tolower = TRUE, remove_punct = TRUE, remove_numbers = TRUE)
 
