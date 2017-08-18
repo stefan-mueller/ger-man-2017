@@ -12,11 +12,9 @@ library(dplyr)
 ## Load corpus (corpus_ger_man_2017)
 load("manifestos-corpus/corpus_ger_man_2017.RData")
 
-# Check occurence of words within manifestos
-textplot_xray(kwic(corpus_ger_man_2017, "Flüchtling*"),
-              kwic(corpus_ger_man_2017, "Einwanderung*"),
-              kwic(corpus_ger_man_2017, "Migration*"))
-
+# Check occurence of word "Gerechtigkeit" (justice)
+textplot_xray(kwic(corpus_ger_man_2017, "Gerechtigkeit"))
+ggsave("output/plot_xray.png", width = 8, height = 4)
 
 ## Define additonal German stopwords
 stopwords_additional <- c("ab", "dass", "deshalb", "seit",
