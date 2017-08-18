@@ -1,5 +1,5 @@
 # Corpus of the 2017 German federal election manifestos
-This repository contains the 2017 German federal election manifestos of the six most popular parties (CDU/CSU, SPD, Bündnis 90/Die Grünen, DIE LINKE, AfD, FDP).
+This repository contains the 2017 German federal election manifestos of the six most popular parties ([CDU/CSU](manifestos-pdf/2017_CDU.pdf), [SPD](manifestos-pdf/2017_SPD.pdf), [Bündnis 90/Die Grünen](manifestos-pdf/2017_Gruene.pdf), [DIE LINKE](manifestos-pdf/2017_Linke.pdf), [AfD](manifestos-pdf/2017_AfD.pdf), [FDP](manifestos-pdf/2017_FDP.pdf)).
 
 The manifestos are loaded into R as a [quanteda](http://github.com/kbenoit/quanteda) corpus. You can clone the repository to use the text corpus. You can also download the file [corpus_ger_man_2017.Rdata](https://github.com/stefan-mueller/ger-man-2017/blob/master/manifestos-corpus/corpus_ger_man_2017.Rdata) to your machine and use the following command to import the texts as a quanteda corpus. The raw manifestos are available as PDF files in the folder [manifestos-pdf](manifestos-pdf).
 
