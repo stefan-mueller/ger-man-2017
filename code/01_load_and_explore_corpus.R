@@ -9,9 +9,37 @@ library(dplyr)
 
 # Note: Specify working directory (or use RStudio project)
 
-## Load corpus (corpus_ger_man_2017)
+## Load corpus (corpus_ger_man_2017) from computer
 load("manifestos-corpus/corpus_ger_man_2017.RData")
 
+## Load corpus from GitHub repository
+
+github.download = function(url) { 
+  fname <- tempfile() 
+  system(sprintf("curl -3 %s > %s", url, fname)) 
+  return(fname) 
+} 
+
+custdata <- load(github.download("https://github.com/stefan-mueller/ger-man-2017/blob/master/manifestos-corpus/corpus_ger_man_2017.Rdata")) 
+
+githubURL <- "https://github.com/stefan-mueller/ger-man-2017/blob/master/manifestos-corpus/ger_man_2017.csv"
+
+corpus_texts <- read.csv(url(githubURL))
+
+load(url(githubURL))
+head(df)
+
+library(rio)
+library(readr)
+
+y <- read_csv("https://github.com/stefan-mueller/ger-man-2017/blob/master/manifestos-corpus/ger_man_2017.csv")
+
+x <- getURL("https://github.com/stefan-mueller/ger-man-2017/blob/master/manifestos-corpus/ger_man_2017.csv")
+y <- read.csv(x)
+
+
+source_data("https://github.com/opetchey/RREEBES/raw/Beninca_development/Beninca_etal_2008_Nature/data/GLE_estimate.Rdata?raw=True")
+load("https://github.com/stefan-mueller/ger-man-2017/blob/master/manifestos-corpus/corpus_ger_man_2017.Rdata")
 # Check occurence of words within manifestos
 textplot_xray(kwic(corpus_ger_man_2017, "Flüchtling*"),
               kwic(corpus_ger_man_2017, "Einwanderung*"),
