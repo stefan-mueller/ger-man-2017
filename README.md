@@ -86,7 +86,7 @@ Estimate party positions with a [Wordfish](http://www.wordfish.org/uploads/1/2/9
 dfm_man_trim <- dfm_trim(dfm_man, min_count = 2)
 
 ## Run Wordfish model
-model_wordfish <- textmodel_wordfish(dfm_man_trim, dir = c(1, 2))
+model_wordfish <- textmodel_wordfish(dfm_man_trim)
 
 ## Run correspondence analysis
 model_ca <- textmodel_ca(dfm_man_trim)
