@@ -48,6 +48,7 @@ ggplot(data = freq_ordered, aes(x = order, y = frequency)) +
   labs(x = NULL, y = "Relative frequency") + 
   theme_custom()
 ggsave("output/plot_topfeatures.pdf", width = 12, height = 6)
+ggsave("output/plot_topfeatures.png", width = 12, height = 6)
 
 
 ## Select minimum frequency and occurence
@@ -64,21 +65,16 @@ model_ca <- textmodel_ca(dfm_man_trim)
 ## Create label
 party_label <- paste(docvars(corpus_ger_man_2017, "party"), "2017", sep = " ")
 
-# textplot_scale1d(model_wordfish, margin = "features")
-
 plot_wordfish <- textplot_scale1d(model_wordfish, margin = "documents",
                  doclabels = party_label) +
   labs(title = "Wordfish estimates")
+ggsave(plot_wordfish, file = "output/plot_wordfish.png", height = 4, width = 4)
 
 plot_ca <- textplot_scale1d(model_ca, doclabels = party_label) +
   labs(title = "Correspondence analysis")
+ggsave(plot_ca, file = "output/plot_ca.png", height = 4, width = 4)
 
 library(gridExtra)
 pdf("output/plot_textmodels.pdf", height = 4, width = 8)
-grid.arrange(plot_wordfish, plot_ca, nrow = 1)
-dev.off()
-
-library(gridExtra)
-png("output/plot_textmodels.png", height = 4, width = 8)
 grid.arrange(plot_wordfish, plot_ca, nrow = 1)
 dev.off()
