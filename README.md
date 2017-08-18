@@ -28,3 +28,7 @@ summary(corpus_ger_man_2017)
 ```
 
 You can use the script [load_and_explore_corpus.R]("https://github.com/stefan-mueller/ger-man-2017/blob/master/code/01_load_and_explore_corpus.R") to load the corpus into R, transform it to a document-feature matrix, get the most frequent words for each manfesto and to estimate Wordfish and Correspondence Analysis positions.
+
+![15 most frequent words per manifesto (after removing stopwords)](https://github.com/stefan-mueller/ger-man-2017/blob/master/output/plot_topfeatures.png)
+
+![Wordscores and Correspondence Analysis of Manifestos](https://github.com/stefan-mueller/ger-man-2017/blob/master/output/plot_textmodels.png)
