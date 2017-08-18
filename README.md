@@ -1,7 +1,7 @@
 # 2017 German federal election manifestos
 This repository contains the 2017 German federal election manifestos of the six most popular parties (CDU/CSU, SPD, Bündnis 90/Die Grünen, DIE LINKE, AfD, FDP).
 
-You can load the manifestos into R with the [quanteda](github.com/kbenoit/quanteda) package. You can download or clone the repository to use the text corpus. You can also download [this .Rdata file](https://github.com/stefan-mueller/ger-man-2017/blob/master/manifestos-corpus/corpus_ger_man_2017.Rdata) to your computer and use the following command to import the texts as a quanteda corpus.
+You can load the manifestos into R with the [quanteda](github.com/kbenoit/quanteda) package. You can download or clone the repository to use the text corpus. You can also download the file [corpus_ger_man_2017.Rdata](https://github.com/stefan-mueller/ger-man-2017/blob/master/manifestos-corpus/corpus_ger_man_2017.Rdata) to your machine and use the following command to import the texts as a quanteda corpus.
 
 ```r
 # Load quanteda package
@@ -29,6 +29,9 @@ summary(corpus_ger_man_2017)
 
 You can use the script [load_and_explore_corpus.R]("https://github.com/stefan-mueller/ger-man-2017/blob/master/code/01_load_and_explore_corpus.R") to load the corpus into R, transform it to a document-feature matrix, get the most frequent words for each manfesto and to estimate Wordfish and Correspondence Analysis positions.
 
-![15 most frequent words per manifesto (after removing stopwords)](https://github.com/stefan-mueller/ger-man-2017/blob/master/output/plot_topfeatures.png)
+![The 15 most frequent words per manifesto (after removing stopwords).](https://github.com/stefan-mueller/ger-man-2017/blob/master/output/plot_topfeatures.png)
 
-![Wordscores and Correspondence Analysis of Manifestos](https://github.com/stefan-mueller/ger-man-2017/blob/master/output/plot_textmodels.png)
+![The dispersion of the word "Gerechtigkeit" (justice, fairness) across the manifestos.
+](https://github.com/stefan-mueller/ger-man-2017/blob/master/output/plot_textmodels.png)
+
+[Wordscores and Correspondence Analysis of Manifestos](https://github.com/stefan-mueller/ger-man-2017/blob/master/output/plot_textmodels.png)
