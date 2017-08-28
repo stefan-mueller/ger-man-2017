@@ -1,4 +1,4 @@
-# Corpus of the 2017 German federal election manifestos
+# Text corpus of the 2017 German federal election manifestos
 This repository contains the 2017 German federal election manifestos of 24 parties participating in the 2017 general election. The anayses below are based on the six most popular parties ([CDU/CSU](manifestos-pdf/2017_CDU.pdf), [SPD](manifestos-pdf/2017_SPD.pdf), [Bündnis 90/Die Grünen](manifestos-pdf/2017_Gruene.pdf), [DIE LINKE](manifestos-pdf/2017_Linke.pdf), [AfD](manifestos-pdf/2017_AfD.pdf), [FDP](manifestos-pdf/2017_FDP.pdf)). This is because some of the smaller parties either have very short manifestos (which makes it difficult to scale these documents) or only published a fundamental program, not an election-specific manifesto.
 
 The manifestos are loaded into R as a [quanteda](http://github.com/kbenoit/quanteda) corpus. You can clone the repository to use the text corpus. You can also download the file [corpus_ger_man_2017.Rdata](https://github.com/stefan-mueller/ger-man-2017/blob/master/manifestos-corpus/corpus_ger_man_2017.Rdata) to your machine and use the following command to import the texts as a quanteda corpus. The raw manifestos are available as PDF files in the folder [manifestos-pdf](manifestos-pdf).
@@ -107,3 +107,18 @@ textplot_scale1d(model_ca, doclabels = party_label) +
   labs(title = "Correspondence analysis")
 ```
 ![Wordscores and Correspondence Analysis of Manifestos](https://github.com/stefan-mueller/ger-man-2017/blob/master/output/plot_textmodels.png)
+
+```r
+To cite package corpus if you use it for publications, please use the following:
+following:
+
+  Müller, Stefan. 2017. ger-man-2017: Text corpus of the 2017 German federal election 
+  manifestos. Version 1.0: http://github.com/stefan-mueller/ger-man-2017.
+
+  @Manual{,
+    title = {ger-man-2017: Text corpus of the 2017 German federal election},
+    author = {Stefan Müller},
+    note = {Version 1.0},
+    url = {http://github.com/stefan-mueller/ger-man-2017},
+  }
+```
