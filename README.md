@@ -108,9 +108,8 @@ textplot_scale1d(model_ca, doclabels = party_label) +
 ```
 ![Wordscores and Correspondence Analysis of Manifestos](https://github.com/stefan-mueller/ger-man-2017/blob/master/output/plot_textmodels.png)
 
-```r
-To cite package corpus if you use it for publications, please use the following:
-following:
+```
+To cite the corpus in publications, please use the following:
 
   Müller, Stefan. 2017. ger-man-2017: Text corpus of the 2017 German federal election 
   manifestos. Version 1.0: http://github.com/stefan-mueller/ger-man-2017.
