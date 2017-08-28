@@ -12,6 +12,10 @@ library(dpylr)
 ## Load corpus file
 load("path/to/file/corpus_ger_man_2017.Rdata")
 
+## Only select the six major parties for the analysis
+parties_select <- c("CDU-CSU", "SPD", "AfD", "Gruene", "Linke", "FDP")
+corpus_ger_man_2017 <- corpus_subset(corpus_ger_man_2017, party %in% parties_select)
+
 ## Get summary of documents in corpus
 summary(corpus_ger_man_2017)
 
@@ -19,7 +23,7 @@ summary(corpus_ger_man_2017)
 # 
 # Text Types Tokens Sentences year  party
 # AfD  5972  21272       742 2017    AfD
-# CDU  4974  23034      1291 2017    CDU
+# CDU-CSU  4974  23034      1291 2017    CDU-CSU
 # FDP  9039  43383      2039 2017    FDP
 # Gruene 13185  81525      4011 2017 Gruene
 # Linke 12308  77004      2885 2017  Linke
