@@ -1,4 +1,4 @@
-"text","year","party"
+"text","year","party","type"
 "PROGRAMM FÜR
 DEUTSCHLAND
 Wahlprogramm der Alternative für Deutschland
@@ -1949,7 +1949,7 @@ Echt alternativ.
 Für Deutschland.
                                                               für
 www.afd.de/wahlprogramm
-",2017,"AfD"
+",2017,"AfD","manifesto"
 "22/08/2017                                                                                           Programm
            Wer ist die BüSo?
            Seit ihrer Gründung 1992 ist die Partei Bürgerrechtsbewegung Solidarität (BüSo) die einzige Partei in Deutschland, die von
@@ -2061,7 +2061,7 @@ https://www.bueso.de/programm                                                   
                                                                                 Das Empire             Gesundheit                Raumfahrt
         Regionales Zentrum der BRICS‐Bank in Südafrika eröffnet
 https://www.bueso.de/programm                                                                                                                                                                            2/3
-",2017,"BUESO"
+",2017,"BUESO","programme"
 "22/08/2017                                                                 Programm | Bayernpartei
                                                                                                                           BP-Landesverband · Impressum
                                                  Bayernpartei
@@ -3703,7 +3703,7 @@ http://landesverband.bayernpartei.de/programm/                                  
                                                                   Copyright © 2017 Bayernpartei - .
                                                                    Website Design by Fab Themes.
 http://landesverband.bayernpartei.de/programm/                                                            26/26
-",2017,"Bayernpartei"
+",2017,"Bayernpartei","programme"
 "Für ein Deutschland,
 in dem wir gut
 und gerne leben.
@@ -6186,7 +6186,7 @@ Bundeskanzlerin unseres Landes bleibt. Daher rufen wir alle Wählerinnen und Wä
 ler auf: Geben Sie bei der Bundestagswahl am 24. September beide Stimmen CDU
 und CSU.
                                                                               75
-",2017,"CDU-CSU"
+",2017,"CDU-CSU","manifesto"
 "22/08/2017                                     Wahlprogramm der Die GERADE Partei | Die GERADE Partei
        Die GERADE Partei
        Wir suchen Bürger die denken wie wir.
@@ -6211,7 +6211,7 @@ und CSU.
        zu verschwenden.
 http://die-gerade.eu/?page_id=16                                                                                    1/5
 
-",2017,"DGP"
+",2017,"DGP","manifesto"
 "Feministische Partei DIE FRAUEN
 Parteiprogramm
 zuletzt geändert im April 2016
@@ -8659,7 +8659,7 @@ Zur Finanzierung der mit unseren Schwerpunkten verbundenen höheren Kosten werde
 cherprinzip konsequent ausbauen mit eindeutig nachvollziehbaren Verknüpfungen von Sanktionen für sozi-
 al- und umweltschädliche Verhaltensweisen zu Subventionen für die jeweiligen Alternativen.
 Seite 50 von 50
-",2017,"DIE FRAUEN"
+",2017,"DIE FRAUEN","programme"
 "22/08/2017                                               PARTEI-Programm zur Bundestagswahl 2017 | Die PARTEI
                                                                                                                                      Suche
          Startseite Parteinetzwerk Parteiorgan Parteishop Parteifilm
@@ -8738,7 +8738,7 @@ https://www.die-partei.de/regierungsprogramm/                                   
                                  schuldbefreiend anerkannt wird.
                                                  Copyright © Die PARTEI — Alle Rechte vorbehalten | Impressum
 https://www.die-partei.de/regierungsprogramm/                                                                                         2/2
-",2017,"DIE PARTEI"
+",2017,"DIE PARTEI","manifesto"
 "22/08/2017                                                                Bundestagswahl 2017
           3 gute Gründe für die Roten
           1. Frieden
@@ -8842,7 +8842,7 @@ http://bundestagswahl2017.dkp.de/                                               
           IMPRESSUM         UZ – DKP-WOCHENZEITEUNG                       
           DKP-NACHRICHTENPORTAL
 http://bundestagswahl2017.dkp.de/                                                                                                     4/4
-",2017,"DKP"
+",2017,"DKP","programme"
 "          Parteiprogramm 2017
                                  Seite
 Präambel                          2
@@ -9136,7 +9136,7 @@ arbeiten zu können, sollen uns willkommen sein, sofern sie sich uneingeschränk
 freiheitlich demokratischen Grundordnung unserer Verfassung bekennen, die
 Gesetze achten und den Willen zur Integration in unsere Gesellschaft mitbringen.
                                            8
-",2017,"Die Grauen"
+",2017,"Die Grauen","programme"
 "Grundsatzprogramm der Partei der Humanisten
 Fassung vom 02.April 2017
 Um die Lesbarkeit zu verbessern, verwenden wir das generische Maskulinum und
@@ -9714,7 +9714,7 @@ ist mit Vertretern der Kulturschaffenden abzustimmen.
 Der Staat schafft lediglich den Rahmen, in dem Kunst gedeihen kann, ohne Inhalte oder
 Richtungen vorzugeben.
 Fassung vom 02.04.2017 – aktuelle Fassung unter parteiderhumanisten.de              18/18
-",2017,"Die Humanisten"
+",2017,"Die Humanisten","programme"
 "      DENKEN
 WIR NEU.
   DAS PROGRAMM
@@ -14727,7 +14727,7 @@ Prozentualer Anteil an Glasfaseranschlüssen an allen Breitbandanschlüssen 144
 
 Freie Demokraten (FDP), FDP-Bundesgeschäftsstelle, Reinhardtstraße 14, 10117 Berlin
        Telefon: 030 284958-0, E-Mail: info@fdp.de, Erfahren Sie mehr unter: fdp.de
-",2017,"FDP"
+",2017,"FDP","manifesto"
 "       FREIE WÄHLER - Die anständige Alternative
              Wahlprogramm
 der FREIE WÄHLER Bundesvereinigung
@@ -16869,7 +16869,7 @@ Rückführungsabkommen 6                                        Wehrdienst 8
 Rundfunk 52, 62                                               Wirtschaft 33, 34, 35, 36, 37, 56
 Russland 28                                                   Wohnungsbau 57
                                                                                                             64
-",2017,"Freie Waehler"
+",2017,"Freie Waehler","manifesto"
 "ZUKUNFT
       WIRD
  AUS MUT
@@ -26281,7 +26281,7 @@ V.i.S.d.P. BÜNDNIS 90/DIE GRÜNEN, Lea Belsner, Platz vor dem Neuen Tor 1, 1011
                                                                                          IBAN: DE73 4306 0967 8035 8159 00
                                                                                          BIC/Swift: GENODEM1GLS
                                                                                          GLS-Bank
-",2017,"Gruene"
+",2017,"Gruene","manifesto"
 " Die Zukunft,
               für die wir
         kämpfen!
@@ -33576,7 +33576,7 @@ Gedruckt auf Recycling Offset
 aus 100 Prozent Altpapier.
 
 
-www.die-linke.de",2017,"Linke"
+www.die-linke.de",2017,"Linke","manifesto"
 "  Start      Mitglied werden      Spenden      Programm        PROUT    Kontakt Über uns
 Wahlprogramm für die Bundestagswahl 2017
 Politik für das Wohl aller Menschen, Tiere und der
@@ -33792,7 +33792,7 @@ www.menschlichewelt.de
 Spendenkonto: Menschliche Welt
 IBAN: DE 41 6509 1040 0086 971000
 Leutkircher Bank
-",2017,"Menschliche Welt"
+",2017,"Menschliche Welt","manifesto"
 "                                                Parteiprogramm
 Inhalt:
 In diesem Reader finden Mitglieder und Interessierte der Partei Neue Liberale – Die Sozialliberalen das
@@ -35210,7 +35210,7 @@ Geht an die Arbeit der Aufklärung, gerade angesichts der Gegenaufklärung und d
 einer freien Gesellschaft ausgeht. Es bedarf der Verteidigung des Anstandes im öffentlichen Leben. Bemüht Euch,
 Ihr werdet gebraucht!“
                                                          61
-",2017,"Neue Liberale"
+",2017,"Neue Liberale","programme"
 "   LÖSUNGEN
   FÜR  DIE  ZUKUNFT -
   UNABHÄNGIG, WEIL  FIRMENSPENDENFREI  .
@@ -35386,7 +35386,7 @@ Bitte senden Sie mir folgende Publikationen:             Senden Sie diesen Coupo
  Ich möchte den ÖDP-Newsletter abonnieren.
  Ich möchte Mitglied werden. Bitte senden               Weitere Infos unter www.oedp.de
   Sie mir einen Mitgliedsantrag.                         und www.menschvorprofit.de
-",2017,"ÖDP"
+",2017,"ÖDP","programme"
 "22/08/2017                                                   Bundestagswahl 2017 - Partei der Vernunft
                                                Bundestagswahl 2017
                                                 Startseite  Aktuelles  Bundestagswahl 2017
@@ -35544,7 +35544,7 @@ https://parteidervernunft.de/aktuelles/bundestagswahl-2017/                     
  beibehalten. Wir als PDV wollen diese Steuer abgeschafft sehen.
                                                                                                       
 https://parteidervernunft.de/aktuelles/bundestagswahl-2017/                                             7/7
-",2017,"PDV"
+",2017,"PDV","manifesto"
 "
 Wahlprogramm der Piratenpartei
 Deutschland zur Bundestagswahl
@@ -40675,7 +40675,7 @@ Bundespressesprecher:
 Pascal Hesse
 Piratenpartei Deutschland                                                                   131
 
-Piratenpartei Deutschland 132",2017,"Piraten"
+Piratenpartei Deutschland 132",2017,"Piraten","manifesto"
 "GEGEN MILITARISMUS UND KRIEG! FÜR SOZIALISMUS!
 Die Sozialistische Gleichheitspartei (SGP) tritt zur Bundestagswahl als einzige Partei mit
 einem sozialistischen Programm an, das sich gegen Krieg und Kapitalismus richtet.
@@ -40906,7 +40906,7 @@ eine Stimme gegen Krieg und Kapitalismus.
 Lest und studiert die World Socialist Web Site, die tägliche Internetpublikation des IKVI! Werdet
 Mitglied der SGP! Es ist höchste Zeit, sich aktiv am Aufbau einer neuen sozialistischen
 Massenpartei zu beteiligen!
-",2017,"SGP"
+",2017,"SGP","manifesto"
 "Zeit für
 mehr
 Gerechtigkeit.
@@ -45134,7 +45134,7 @@ tionen und die ILO-Konvention 169 zum Schutz der indigenen Bevölkerung ratifizi
 114
 
 
-spd.de",2017,"SPD"
+spd.de",2017,"SPD","manifesto"
 "Partei- und Arbeitsprogramm
  (Bundesparteiprogramm)
              der
@@ -46078,7 +46078,7 @@ Datum:         27.05.2017 (Datum der ersten Version: 28.09.2015)
 Links:         http://transhumane-partei.de/programm/
                https://forum.fractalfuture.net/t/offentliche-dokumentensammlung/1132
                                               27
-",2017,"TPD"
+",2017,"TPD","programme"
 "Wahlprogramm zur Bundestagswahl 2017
  der Partei Mensch Umwelt Tierschutz
          Ehrliche Politik für alle
@@ -46468,7 +46468,7 @@ G. Friedens- und Asylpolitik
     Ausbildungsnachweisen und Integration in den Arbeitsmarkt, damit Geflüchtete
     ihren eigenen Unterhalt erarbeiten und ihren Beitrag zu unserem
     Sozialsystem erbringen können.
-",2017,"Tierschutzpartei"
+",2017,"Tierschutzpartei","manifesto"
 "V-Partei³ - Partei für Veränderung,
 Vegetarier und Veganer
   Parteiprogramm für eine
@@ -47695,4 +47695,4 @@ Sag ja, mach mit! www.v-partei.de
        Fax: +49 (0)821 430 61046
         E-Mail: info@v-partei.de
                                   S e i t e 29 | 29
-",2017,"V-Partei3"
+",2017,"V-Partei3","programme"
